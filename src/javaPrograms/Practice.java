@@ -45,11 +45,10 @@ public class Practice {
 				capCount ++;
 				capLetters = capLetters + s.charAt(i) + " ";
 			}
-			System.out.println("Capital Letters are : "+ s.charAt(i));
-			System.out.println("No of Capital Letters are : "+ capCount);
-
-
+			
 		}
+		System.out.println("Capital Letters are : "+ capLetters);
+		System.out.println("No of Capital Letters are : "+ capCount);
 		
 	}
 

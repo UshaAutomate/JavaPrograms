@@ -36,7 +36,20 @@ public class Practice {
 		System.out.println("String in Upper case: " +sUp);
 		System.out.println("String in Lower case : " + s.toLowerCase());
 		
+		
 		//retrieve all capital letters
+		String capLetters = "";
+		int capCount =0;
+		for(int i=0; i< s.length(); i++) {
+			if(s.charAt(i)>='A' && s.charAt(i)<='Z') {
+				capCount ++;
+				capLetters = capLetters + s.charAt(i) + " ";
+			}
+			System.out.println("Capital Letters are : "+ s.charAt(i));
+			System.out.println("No of Capital Letters are : "+ capCount);
+
+
+		}
 		
 	}
 
